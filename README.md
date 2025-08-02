@@ -19,7 +19,7 @@
 
 2:Run the script
 ```
-python topology_code.py
+python code.py
 ```  
 
 3:Check outputs
@@ -39,3 +39,4 @@ PSNR, SSIM, NC, BER recorded in Try_.xlsx
 
 ## Citation
 Please cite the paper if you use the code.
+
