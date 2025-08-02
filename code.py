@@ -75,7 +75,7 @@ modes = [
     ("scale1.5", lambda img,output_path: cv2.resize(
           cv2.resize(img, (int(img.shape[1] * 1.5), int(img.shape[0] * 1.5)), interpolation=cv2.INTER_LINEAR),
           (img.shape[1], img.shape[0]), interpolation=cv2.INTER_LINEAR)),
-    ("rotate90", lambda img, output_path: rotate_image(img, angle=90)),
+    # ("rotate90", lambda img, output_path: rotate_image(img, angle=90)),
     ("salt_pepper0.001", lambda img,output_path: add_salt_and_pepper_noise(img,  amount=0.001)),
      ("salt_pepper0.01", lambda img,output_path: add_salt_and_pepper_noise(img,  amount=0.01)),
      # ("gaussian_noise0.001", lambda img,output_path: add_gaussian_noise(img,sigma=0.001)),
@@ -1499,6 +1499,7 @@ for config_index, (mean_size_1, watermark_shape, midpoint_distance, watermark_fi
 print("All processing finished.")
 
 wb.save(excel_path)
+
 
 
 
