@@ -1,4 +1,4 @@
-Enhanced Robustness in Image Watermarking: Gradient-Based Topological Encoding and Geometric Localization
+## Enhanced Robustness in Image Watermarking: Gradient-Based Topological Encoding and Geometric Localization
 
 This study introduces a robust image watermarking method that leverages the stability of topological structures.
 
@@ -46,5 +46,6 @@ PSNR, SSIM, NC, BER recorded in Try_.xlsx
 ## Citation
 This repository contains the implementation of the paper "Enhanced Robustness in Image Watermarking: Gradient-Based Topological Encoding and Geometric Localization" (submitted to The Visual Computer).
 Please cite the paper if you use the code.
+
 
 
